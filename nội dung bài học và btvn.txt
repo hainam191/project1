@@ -1,0 +1,12 @@
+- database: 
+   email, password, age
+- server: 
+ + file service: chứa function thực hiện các chức năng : login, đăng kí tài khoản, sửa tài khoản, xóa tài khoản, hiển toàn bộ tài khoản,
+hiển thị tài khoản theo id
+ + file router: nhận dữ liệu từ người dùng và gọi các service tương ứng
+- client:
+ + home: hiển thị toàn bộ người dùng trong database
+ + đăng kí: 
+ + đăng nhập
+
+yêu cầu: mongodb,test postman trước khi ghép giao diện
